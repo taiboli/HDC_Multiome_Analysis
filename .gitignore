@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+*.log
+# data and outputs live outside the repository
+*.h5ad
+*.parquet
+*.npz
+*.gz
+*.bed
+*.pdf
+*.png
+# local configuration with real cluster paths
+config/*.local.env
+logs/
